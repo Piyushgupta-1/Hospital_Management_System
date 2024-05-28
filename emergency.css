@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(201, 188, 212);
+}
+.text-center{
+    margin: 50px;
+    margin-bottom: 50px;
+    margin-left: 370px;
+}
+.text-center h1{
+    margin-left: 100px;
+}
+.field input[type="text"],input[type="password"],input[type="email"]{
+    border: none;
+    outline: none;
+    background-color:transparent;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.field textarea[name="Message"]{
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+.field textarea[name="Message"]:hover{
+    background-color:gray;
+}
+.field button[type="submit"]{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: red;
+    font-size: 20px;
+    
+}
+.field button[type="submit"]:hover{
+    background-color: turquoise;
+}
